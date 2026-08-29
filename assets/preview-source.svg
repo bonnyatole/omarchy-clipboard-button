@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="desktop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#18151f"/>
+      <stop offset="0.55" stop-color="#242033"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c4a7e7"/>
+      <stop offset="1" stop-color="#9ccfd8"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity=".42"/>
+    </filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#desktop)"/>
+  <circle cx="1050" cy="575" r="280" fill="#9ccfd8" opacity=".06"/>
+  <circle cx="150" cy="140" r="230" fill="#c4a7e7" opacity=".07"/>
+
+  <!-- Omarchy-style bar -->
+  <rect x="18" y="16" width="1164" height="48" rx="14" fill="#262231" stroke="#494056"/>
+  <circle cx="46" cy="40" r="7" fill="#c4a7e7"/>
+  <circle cx="70" cy="40" r="5" fill="#6e6a79"/>
+  <circle cx="91" cy="40" r="5" fill="#6e6a79"/>
+  <text x="112" y="45" fill="#e9e4ef" font-family="DejaVu Sans, sans-serif" font-size="15">workspace 1</text>
+  <text x="558" y="45" fill="#e9e4ef" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="600">21:30</text>
+
+  <g fill="none" stroke="#aaa3b3" stroke-width="2" stroke-linecap="round">
+    <path d="M1012 34v12m-5-8 5-5 5 5"/>
+    <path d="M1051 34a8 8 0 1 0 0 12 8 8 0 0 0 0-12Z"/>
+    <path d="M1087 36v9m-5-4.5h10"/>
+    <path d="M1153 34v12m-5-6h10"/>
+  </g>
+
+  <!-- Clipboard button, enlarged and highlighted -->
+  <circle cx="1120" cy="40" r="17" fill="#c4a7e7" opacity=".18"/>
+  <circle cx="1120" cy="40" r="24" fill="#c4a7e7" opacity=".12" filter="url(#glow)"/>
+  <g transform="translate(1108 28)" fill="none" stroke="#c4a7e7" stroke-width="2">
+    <rect x="5" y="4.5" width="14" height="16.5" rx="2.5"/>
+    <path d="M9 5V3.75C9 2.78 9.78 2 10.75 2h2.5C14.22 2 15 2.78 15 3.75V5.8H9.8A.8.8 0 0 1 9 5Z" fill="#c4a7e7" stroke="none"/>
+    <path d="M8.5 10.25h7M8.5 14h7M8.5 17.75h4.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Safe representation of the stock clipboard overlay -->
+  <g filter="url(#shadow)">
+    <rect x="246" y="126" width="708" height="452" rx="22" fill="#262231" stroke="#51485e" stroke-width="2"/>
+  </g>
+  <rect x="286" y="164" width="48" height="48" rx="14" fill="url(#accent)" opacity=".16"/>
+  <g transform="translate(298 176)" fill="none" stroke="#c4a7e7" stroke-width="2">
+    <rect x="5" y="4.5" width="14" height="16.5" rx="2.5"/>
+    <path d="M9 5V3.75C9 2.78 9.78 2 10.75 2h2.5C14.22 2 15 2.78 15 3.75V5.8H9.8A.8.8 0 0 1 9 5Z" fill="#c4a7e7" stroke="none"/>
+    <path d="M8.5 10.25h7M8.5 14h7M8.5 17.75h4.5" stroke-linecap="round"/>
+  </g>
+  <text x="354" y="186" fill="#f1edf5" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="700">Clipboard history</text>
+  <text x="354" y="208" fill="#a9a1b0" font-family="DejaVu Sans, sans-serif" font-size="13">The built-in Omarchy overlay, one click away</text>
+
+  <rect x="286" y="238" width="628" height="52" rx="13" fill="#1c1924" stroke="#443d4e"/>
+  <circle cx="311" cy="264" r="7" fill="none" stroke="#8d8597" stroke-width="2"/>
+  <path d="m316 269 6 6" stroke="#8d8597" stroke-width="2" stroke-linecap="round"/>
+  <text x="337" y="269" fill="#8d8597" font-family="DejaVu Sans, sans-serif" font-size="15">Type to filter clipboard history…</text>
+
+  <g font-family="DejaVu Sans, sans-serif">
+    <rect x="286" y="310" width="628" height="62" rx="13" fill="#c4a7e7" opacity=".13" stroke="#c4a7e7"/>
+    <text x="309" y="338" fill="#eee9f2" font-size="15" font-weight="600">omarchy plugin validate .</text>
+    <text x="309" y="357" fill="#a9a1b0" font-size="12">Text · just now</text>
+
+    <rect x="286" y="384" width="628" height="62" rx="13" fill="#1c1924" stroke="#40394a"/>
+    <text x="309" y="412" fill="#ded8e4" font-size="15">https://omarchy.org/</text>
+    <text x="309" y="431" fill="#8d8597" font-size="12">Text · 2 minutes ago</text>
+
+    <rect x="286" y="458" width="628" height="62" rx="13" fill="#1c1924" stroke="#40394a"/>
+    <text x="309" y="486" fill="#ded8e4" font-size="15">Clipboard Button follows your active theme</text>
+    <text x="309" y="505" fill="#8d8597" font-size="12">Text · 5 minutes ago</text>
+  </g>
+
+  <text x="286" y="548" fill="#82798b" font-family="DejaVu Sans, sans-serif" font-size="12">Enter paste   ·   Shift+Enter copy   ·   Esc close</text>
+  <rect x="851" y="536" width="63" height="25" rx="8" fill="#c4a7e7" opacity=".16"/>
+  <text x="864" y="553" fill="#c4a7e7" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="600">THEMED</text>
+</svg>

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.majesticio.clipboard-button",
+  "name": "Clipboard Button",
+  "version": "1.0.0",
+  "author": "Gabriel Fosse",
+  "license": "MIT",
+  "description": "Open Omarchy's built-in clipboard history from a theme-aware bar button.",
+  "homepage": "https://github.com/majesticio/omarchy-clipboard-button",
+  "repository": "https://github.com/majesticio/omarchy-clipboard-button",
+  "keywords": [
+    "clipboard",
+    "history",
+    "bar",
+    "quickshell"
+  ],
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Clipboard Button",
+    "description": "Open the built-in clipboard history overlay",
+    "category": "Utilities",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
