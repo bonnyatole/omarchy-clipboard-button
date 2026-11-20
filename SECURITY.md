@@ -10,6 +10,10 @@ state.
 
 ## Reporting
 
-Please report suspected vulnerabilities privately through GitHub's security
-advisory feature for `majesticio/omarchy-clipboard-button`. Do not include
-secrets or clipboard contents in a public issue.
+Please report suspected vulnerabilities in this fork privately through
+GitHub's security advisory feature for `bonnyatole/omarchy-clipboard-button`.
+Do not include secrets or clipboard contents in a public issue.
+
+This project is a fork of
+[majesticio/omarchy-clipboard-button](https://github.com/majesticio/omarchy-clipboard-button).
+Issues that also affect the original code may be worth reporting there too.

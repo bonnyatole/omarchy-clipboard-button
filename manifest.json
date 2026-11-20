@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "id": "io.github.majesticio.clipboard-button",
+  "id": "io.github.bonnyatole.clipboard-button",
   "name": "Clipboard Button",
-  "version": "1.0.0",
-  "author": "Gabriel Fosse",
+  "version": "1.1.0",
+  "author": "Gabriel Fosse (modified by Daniele Bonicelli)",
   "license": "MIT",
   "description": "Open Omarchy's built-in clipboard history from a theme-aware bar button.",
-  "homepage": "https://github.com/majesticio/omarchy-clipboard-button",
-  "repository": "https://github.com/majesticio/omarchy-clipboard-button",
+  "homepage": "https://github.com/bonnyatole/omarchy-clipboard-button",
+  "repository": "https://github.com/bonnyatole/omarchy-clipboard-button",
   "keywords": [
     "clipboard",
     "history",
